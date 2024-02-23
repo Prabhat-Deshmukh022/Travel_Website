@@ -1,0 +1,80 @@
+#footer{
+    width: 100%;
+    padding: 50px 8% 50px;
+    background-color: #1c0a51;
+    box-shadow: 10px 10px 10px 10px #f4f5fb;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 0.90rem;
+}
+#footer #row1{
+    position: relative;
+    overflow: hidden;
+}
+#footer #row1 #footer-logo{
+    font-size: 30px;
+    color: #f4f5fb;
+}
+#footer #row1 p{
+    color: #f4f5fb;
+    margin-top: 10px;
+}
+.socail-links{
+    margin-top: 15px;
+}
+.socail-links i{
+    color: #1c0a51;
+    background: #f4f5fb;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#row2 h3{
+    font-size: 18px;
+    color: #f4f5fb;
+    border-bottom: 2px solid #f4f5fb;
+}
+#row2 ul{
+    margin-top: 15px;
+}
+#row2 ul li{
+    margin-top: 8px;
+}
+#row2 ul li a{
+    color: #f4f5fb;
+    transition: 0.5s ease;
+}
+#row2 li a:hover{
+    border-bottom: 1px solid #f4f5fb;
+}
+#row3 h3{
+    font-size: 18px;
+    color: #f4f5fb;
+    border-bottom: 2px solid #f4f5fb;
+}
+#row3 ul{
+    margin-top: 15px;
+}
+#row3 ul li{
+    margin-top: 8px;
+}
+#row3 ul li a{
+    color: #f4f5fb;
+    transition: 0.5s ease;
+}
+#row3 li a:hover{
+    border-bottom: 1px solid #f4f5fb;
+}
+#row4 h3{
+    font-size: 18px;
+    color: #f4f5fb;
+    border-bottom: 2px solid #f4f5fb;
+}
+#row4 img{
+    width: 180px;
+    cursor: pointer;
+}

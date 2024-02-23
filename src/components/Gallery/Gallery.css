@@ -1,0 +1,27 @@
+.gallery{
+    padding: 120px 10% 120px;
+  }
+  .gallery .heading h3{
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #f4f5fb;
+    border-bottom: 2px solid #1c0a51;
+  }
+  .gallery-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    align-items: center;
+    gap: 0.90rem;
+    margin-top: 30px;
+  }
+  .gallery-card .row img{
+    width: 200px;
+    padding: 10px;
+    display: block;
+    border-radius: 15px;    
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .gallery-card .row img:hover{
+    transform: translateY(-10px);
+  }

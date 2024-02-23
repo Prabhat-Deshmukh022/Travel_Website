@@ -1,0 +1,47 @@
+.slide-form h2 {
+  margin-top: 30px;
+}
+.slide-form {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 35%;
+  height: 65vh;
+  border-radius: 5px;
+  color: white;
+}
+.slide-form input {
+  margin-top: 20px;
+}
+.slide-form .flex_space input:nth-child(odd) {
+  margin-right: 20px;
+}
+.slide-form .flex_space button:nth-child(odd) {
+  margin-right: 1px;
+}
+.slide-form .submit {
+  background: #31b675;
+  color: white;
+}
+textarea,
+input {
+  width:50%;
+  padding:20px;
+  
+}
+ .hotel-bill {
+  position:relative;
+  text-align:center;
+text-size-adjust: 10;
+  width:160px;
+  height:60px;
+  bottom:350px;
+  background:orange;
+  color:darkred;
+  left:140%;
+  border: 1px solid #ccc; /* Border */
+border-radius: 1px;
+font-size:100;
+margin:auto;
+   /* Adjust margin as needed */
+}

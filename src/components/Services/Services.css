@@ -1,0 +1,41 @@
+.services{
+    padding: 100px 10% 120px;
+  }
+  .services .heading{
+    text-align: center;
+  }
+  .services .heading h3{
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f4f5fb;
+  }
+  .services .card-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 0.90rem;
+    margin-top: 30px;
+  }
+  .services .card-content .row{
+    background: #1c0a51;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .services .row i{
+    color: #f4f5fb;
+    font-size: 60px;
+    padding: 10px;
+    display: block;
+  }
+  .services .card-body h3{
+    color: #f4f5fb;
+    font-size: 25px;
+  }
+  .services .card-body p{
+    color: #f4f5fb;
+  }
